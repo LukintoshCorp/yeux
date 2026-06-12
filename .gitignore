@@ -1,0 +1,7 @@
+*
+!*.py
+!*.task
+!*.onnx
+!.gitattributes
+!.gitignore
+!README.md
