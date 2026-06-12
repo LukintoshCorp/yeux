@@ -1,0 +1,19 @@
+# Ignora tudo
+*
+
+# Mas permite estes arquivos
+!*.py
+!*.task
+!*.onnx
+!.gitattributes
+!.gitignore
+!README.md
+
+# Ignora pastas comuns
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+.vscode/
+.idea/
