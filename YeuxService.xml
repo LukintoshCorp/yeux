@@ -1,0 +1,11 @@
+<service>
+  <id>YeuxService</id>
+  <name>Yeux Service</name>
+  <description>Lukintosh Yeux background service</description>
+
+  <executable>C:\Users\lucas\AppData\Local\Programs\Python\Python312\python.exe</executable>
+  <arguments>"C:\Users\lucas\Videos\mouse-invisível\start_yeux.py"</arguments>
+  <workingdirectory>C:\Users\lucas\Videos\mouse-invisível</workingdirectory>
+
+  <log mode="roll" />
+</service>

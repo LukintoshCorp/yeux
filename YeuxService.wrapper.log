@@ -1,0 +1,112 @@
+2026-05-15 21:08:54,266 DEBUG - Starting WinSW in console mode
+2026-05-15 21:08:54,307 INFO  - Installing service 'Yeux Service (YeuxService)'...
+2026-05-15 21:08:54,363 INFO  - Service 'Yeux Service (YeuxService)' was installed successfully.
+2026-05-15 21:08:54,760 DEBUG - Starting WinSW in console mode
+2026-05-15 21:08:54,799 INFO  - Starting service 'Yeux Service (YeuxService)'...
+2026-05-15 21:08:55,177 DEBUG - Starting WinSW in service mode
+2026-05-15 21:08:55,247 INFO  - Service 'Yeux Service (YeuxService)' started successfully.
+2026-05-15 21:08:55,375 INFO  - Starting C:\Users\lucas\AppData\Local\Programs\Python\Python312\python.exe C:\Users\lucas\Videos\mouse-invisível\start_yeux.py
+2026-05-15 21:08:55,428 INFO  - Started process 29128
+2026-05-15 21:08:55,446 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to WinSW.RollingLogAppender
+2026-05-15 21:09:50,236 DEBUG - Starting WinSW in service mode
+2026-05-15 21:09:50,407 INFO  - Starting C:\Users\lucas\AppData\Local\Programs\Python\Python312\python.exe C:\Users\lucas\Videos\mouse-invisível\start_yeux.py
+2026-05-15 21:09:50,440 INFO  - Started process 22292
+2026-05-15 21:09:50,456 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to WinSW.RollingLogAppender
+2026-05-15 21:11:01,559 DEBUG - Starting WinSW in console mode
+2026-05-15 21:11:01,595 INFO  - Starting service 'Yeux Service (YeuxService)'...
+2026-05-15 21:11:01,931 DEBUG - Starting WinSW in service mode
+2026-05-15 21:11:01,966 INFO  - Service 'Yeux Service (YeuxService)' started successfully.
+2026-05-15 21:11:02,071 INFO  - Starting C:\Users\lucas\AppData\Local\Programs\Python\Python312\python.exe C:\Users\lucas\Videos\mouse-invisível\yeux.py
+2026-05-15 21:11:02,102 INFO  - Started process 18000
+2026-05-15 21:11:02,119 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to WinSW.RollingLogAppender
+2026-05-16 13:04:57,636 DEBUG - Starting WinSW in console mode
+2026-05-16 13:04:59,566 DEBUG - Starting WinSW in console mode
+2026-05-16 13:04:59,615 INFO  - Stopping service 'Yeux Service (YeuxService)'...
+2026-05-16 13:04:59,638 INFO  - Service 'Yeux Service (YeuxService)' has already stopped.
+2026-05-16 13:08:41,497 DEBUG - Starting WinSW in console mode
+2026-05-16 13:08:42,386 DEBUG - Starting WinSW in console mode
+2026-05-16 13:08:42,441 INFO  - Starting service 'Yeux Service (YeuxService)'...
+2026-05-16 13:08:42,857 DEBUG - Starting WinSW in service mode
+2026-05-16 13:08:42,897 INFO  - Service 'Yeux Service (YeuxService)' started successfully.
+2026-05-16 13:08:43,026 INFO  - Starting C:\Users\lucas\AppData\Local\Programs\Python\Python312\python.exe C:\Users\lucas\Videos\mouse-invisível\start_yeux.py
+2026-05-16 13:08:43,075 INFO  - Started process 8956
+2026-05-16 13:08:43,099 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to WinSW.RollingLogAppender
+2026-05-16 13:09:12,994 DEBUG - Starting WinSW in console mode
+2026-05-16 13:09:13,926 DEBUG - Starting WinSW in console mode
+2026-05-16 13:09:13,977 INFO  - Stopping service 'Yeux Service (YeuxService)'...
+2026-05-16 13:09:13,999 INFO  - Service 'Yeux Service (YeuxService)' has already stopped.
+2026-05-16 13:10:28,685 DEBUG - Starting WinSW in console mode
+2026-05-16 13:10:29,526 DEBUG - Starting WinSW in console mode
+2026-05-16 13:10:29,575 INFO  - Stopping service 'Yeux Service (YeuxService)'...
+2026-05-16 13:10:29,597 INFO  - Service 'Yeux Service (YeuxService)' has already stopped.
+2026-05-16 13:10:47,169 DEBUG - Starting WinSW in console mode
+2026-05-16 13:10:48,105 DEBUG - Starting WinSW in console mode
+2026-05-16 13:10:48,175 INFO  - Installing service 'Yeux Service (YeuxService)'...
+2026-05-16 13:10:48,190 ERROR - A service with ID 'YeuxService' already exists.
+2026-05-16 13:10:48,194 FATAL - Failed to install the service. O serviço especificado já existe.
+2026-05-16 13:10:58,404 DEBUG - Starting WinSW in console mode
+2026-05-16 13:10:59,325 DEBUG - Starting WinSW in console mode
+2026-05-16 13:10:59,374 INFO  - Starting service 'Yeux Service (YeuxService)'...
+2026-05-16 13:10:59,778 DEBUG - Starting WinSW in service mode
+2026-05-16 13:10:59,820 INFO  - Service 'Yeux Service (YeuxService)' started successfully.
+2026-05-16 13:10:59,949 INFO  - Starting C:\Users\lucas\AppData\Local\Programs\Python\Python312\python.exe "C:\Users\lucas\Videos\mouse-invisível\start_yeux.py"
+2026-05-16 13:10:59,990 INFO  - Started process 25180
+2026-05-16 13:11:00,014 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to WinSW.RollingLogAppender
+2026-05-16 13:11:22,379 DEBUG - Starting WinSW in console mode
+2026-05-16 13:11:23,194 DEBUG - Starting WinSW in console mode
+2026-05-16 13:11:23,256 INFO  - Stopping service 'Yeux Service (YeuxService)'...
+2026-05-16 13:11:23,277 INFO  - Service 'Yeux Service (YeuxService)' has already stopped.
+2026-05-16 13:11:30,809 DEBUG - Starting WinSW in console mode
+2026-05-16 13:11:31,622 DEBUG - Starting WinSW in console mode
+2026-05-16 13:11:31,662 INFO  - Uninstalling service 'Yeux Service (YeuxService)'...
+2026-05-16 13:11:31,671 INFO  - Service 'Yeux Service (YeuxService)' was uninstalled successfully.
+2026-05-16 13:11:34,839 DEBUG - Starting WinSW in console mode
+2026-05-16 13:11:35,632 DEBUG - Starting WinSW in console mode
+2026-05-16 13:11:35,676 INFO  - Installing service 'Yeux Service (YeuxService)'...
+2026-05-16 13:11:35,715 INFO  - Service 'Yeux Service (YeuxService)' was installed successfully.
+2026-05-16 13:11:38,974 DEBUG - Starting WinSW in console mode
+2026-05-16 13:11:39,776 DEBUG - Starting WinSW in console mode
+2026-05-16 13:11:39,827 INFO  - Starting service 'Yeux Service (YeuxService)'...
+2026-05-16 13:11:40,230 DEBUG - Starting WinSW in service mode
+2026-05-16 13:11:40,267 INFO  - Service 'Yeux Service (YeuxService)' started successfully.
+2026-05-16 13:11:40,419 INFO  - Starting C:\Users\lucas\AppData\Local\Programs\Python\Python312\python.exe "C:\Users\lucas\Videos\mouse-invisível\start_yeux.py"
+2026-05-16 13:11:40,458 INFO  - Started process 14296
+2026-05-16 13:11:40,481 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to WinSW.RollingLogAppender
+2026-05-16 13:11:58,744 DEBUG - Starting WinSW in console mode
+2026-05-16 13:11:59,629 DEBUG - Starting WinSW in console mode
+2026-05-16 13:11:59,680 INFO  - Stopping service 'Yeux Service (YeuxService)'...
+2026-05-16 13:11:59,703 INFO  - Service 'Yeux Service (YeuxService)' has already stopped.
+2026-05-16 13:12:10,577 DEBUG - Starting WinSW in console mode
+2026-05-16 13:12:11,519 DEBUG - Starting WinSW in console mode
+2026-05-16 13:12:11,571 INFO  - Stopping service 'Yeux Service (YeuxService)'...
+2026-05-16 13:12:11,593 INFO  - Service 'Yeux Service (YeuxService)' has already stopped.
+2026-05-16 13:12:15,860 DEBUG - Starting WinSW in console mode
+2026-05-16 13:12:16,900 DEBUG - Starting WinSW in console mode
+2026-05-16 13:12:16,961 INFO  - Starting service 'Yeux Service (YeuxService)'...
+2026-05-16 13:12:17,443 DEBUG - Starting WinSW in service mode
+2026-05-16 13:12:17,485 INFO  - Service 'Yeux Service (YeuxService)' started successfully.
+2026-05-16 13:12:17,639 INFO  - Starting C:\Users\lucas\AppData\Local\Programs\Python\Python312\python.exe "C:\Users\lucas\Videos\mouse-invisível\start_yeux.py"
+2026-05-16 13:12:17,685 INFO  - Started process 9320
+2026-05-16 13:12:17,711 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to WinSW.RollingLogAppender
+2026-05-16 13:13:02,444 DEBUG - Starting WinSW in console mode
+2026-05-16 13:13:03,336 DEBUG - Starting WinSW in console mode
+2026-05-16 13:13:03,387 INFO  - Stopping service 'Yeux Service (YeuxService)'...
+2026-05-16 13:13:03,401 INFO  - Service 'Yeux Service (YeuxService)' stopped successfully.
+2026-05-16 13:13:03,403 INFO  - Stopping YeuxService
+2026-05-16 13:13:03,405 DEBUG - ProcessKill 9320
+2026-05-16 13:13:03,410 DEBUG - Stopping process 9320...
+2026-05-16 13:13:05,989 DEBUG - Process 9320 canceled with code -1073741510.
+2026-05-16 13:13:05,995 INFO  - Finished YeuxService
+2026-05-16 14:19:18,124 DEBUG - Starting WinSW in service mode
+2026-05-16 14:19:22,651 INFO  - Starting C:\Users\lucas\AppData\Local\Programs\Python\Python312\python.exe "C:\Users\lucas\Videos\mouse-invisível\start_yeux.py"
+2026-05-16 14:19:23,935 INFO  - Started process 12900
+2026-05-16 14:19:24,293 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to WinSW.RollingLogAppender
+2026-05-16 14:46:18,415 DEBUG - Starting WinSW in service mode
+2026-05-16 14:46:18,628 INFO  - Starting C:\Users\lucas\AppData\Local\Programs\Python\Python312\python.exe "C:\Users\lucas\Videos\mouse-invisível\start_yeux.py"
+2026-05-16 14:46:18,707 INFO  - Started process 12604
+2026-05-16 14:46:18,726 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to WinSW.RollingLogAppender
+2026-05-16 14:50:11,360 INFO  - Stopping YeuxService
+2026-05-16 14:50:11,362 DEBUG - ProcessKill 12604
+2026-05-16 14:50:11,368 DEBUG - Stopping process 12604...
+2026-05-16 14:50:12,623 DEBUG - Process 12604 canceled with code -1073741510.
+2026-05-16 14:50:12,638 INFO  - Finished YeuxService
