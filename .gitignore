@@ -1,7 +1,27 @@
+<<<<<<< HEAD
 *
+=======
+# Ignora tudo
+*
+
+# Mas permite estes arquivos
+>>>>>>> 204637f65264c40bc8cdca2f8ab8e1b9c64c8d61
 !*.py
 !*.task
 !*.onnx
 !.gitattributes
 !.gitignore
+<<<<<<< HEAD
 !README.md
+=======
+!README.md
+
+# Ignora pastas comuns
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+.vscode/
+.idea/
+>>>>>>> 204637f65264c40bc8cdca2f8ab8e1b9c64c8d61
