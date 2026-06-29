@@ -70,7 +70,7 @@ pip install -r requirements.txt
 Run the main application:
 
 ```bash
-python main.py
+python yeux.py
 ```
 
 Or execute individual scripts as needed.
