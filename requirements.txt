@@ -1,0 +1,6 @@
+opencv-python
+numpy
+mediapipe
+onnxruntime
+onnxruntime-directml
+pyautogui
