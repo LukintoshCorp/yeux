@@ -4,3 +4,4 @@ mediapipe
 onnxruntime
 onnxruntime-directml
 pyautogui
+screeninfo

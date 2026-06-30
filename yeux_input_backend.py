@@ -1,10 +1,18 @@
 import time
 import platform
 import ctypes
-from ctypes import wintypes
 from typing import Tuple
 
 from yeux_input_contract import YeuxMouseEvent
+
+if platform.system().lower() == "windows":
+    from ctypes import wintypes
+else:
+    class WinTypesFallback:
+        LONG = ctypes.c_long
+        DWORD = ctypes.c_ulong
+
+    wintypes = WinTypesFallback()
 
 
 ULONG_PTR = ctypes.POINTER(ctypes.c_ulong)

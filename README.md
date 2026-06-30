@@ -65,6 +65,12 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+### Optional native acceleration
+
+Yeux can use `YeuxNativeCore.dll` for native acceleration on Windows, but it is not required. If the DLL is not available, Yeux keeps running with the Python fallback.
+
+To enable it, place the DLL at `native/YeuxNativeCore.dll` or set `YEUX_NATIVE_CORE_PATH` to the full DLL path.
+
 ## Usage
 
 Run the main application:

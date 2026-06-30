@@ -18,7 +18,7 @@ import traceback
 import os
 import platform
 import ctypes
-from ctypes import wintypes
+from pathlib import Path
 from dataclasses import dataclass, field
 from typing import Optional, Tuple, List, Dict, Any
 from yeux_input_contract import YeuxMouseEvent
@@ -33,31 +33,78 @@ import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 
+if platform.system().lower() == "windows":
+    from ctypes import wintypes
+else:
+    class POINT(ctypes.Structure):
+        _fields_ = [
+            ("x", ctypes.c_long),
+            ("y", ctypes.c_long),
+        ]
+
+    class WinTypesFallback:
+        LONG = ctypes.c_long
+        DWORD = ctypes.c_ulong
+        POINT = POINT
+
+    wintypes = WinTypesFallback()
+
 YEUX_NATIVE_AVAILABLE = False
 yeux_native = None
 
-try:
-    yeux_native = ctypes.CDLL(r"C:\Users\lucas\Videos\mouse-invisível\YeuxNativeCore.dll")
+def find_native_core_path() -> Optional[Path]:
+    if platform.system().lower() != "windows":
+        return None
 
-    yeux_native.yeux_update_cursor.argtypes = [
-        ctypes.c_double,
-        ctypes.c_double,
-        ctypes.c_double,
-        ctypes.c_double,
-        ctypes.c_double,
-        ctypes.c_double,
-        ctypes.POINTER(ctypes.c_double),
-        ctypes.POINTER(ctypes.c_double),
-        ctypes.POINTER(ctypes.c_double),
-        ctypes.POINTER(ctypes.c_double),
-    ]
+    env_path = os.environ.get("YEUX_NATIVE_CORE_PATH")
+    candidates = []
 
-    yeux_native.yeux_update_cursor.restype = None
+    if env_path:
+        candidates.append(Path(env_path))
 
-    YEUX_NATIVE_AVAILABLE = True
-    print("YeuxNativeCore carregado")
-except Exception as e:
-    print("YeuxNativeCore não carregou:", e)
+    script_dir = Path(__file__).resolve().parent
+    candidates.extend(
+        [
+            script_dir / "native" / "YeuxNativeCore.dll",
+            script_dir / "YeuxNativeCore.dll",
+        ]
+    )
+
+    for candidate in candidates:
+        if candidate.is_file():
+            return candidate
+
+    return None
+
+
+native_core_path = find_native_core_path()
+
+if native_core_path is not None:
+    try:
+        yeux_native = ctypes.CDLL(str(native_core_path))
+
+        yeux_native.yeux_update_cursor.argtypes = [
+            ctypes.c_double,
+            ctypes.c_double,
+            ctypes.c_double,
+            ctypes.c_double,
+            ctypes.c_double,
+            ctypes.c_double,
+            ctypes.POINTER(ctypes.c_double),
+            ctypes.POINTER(ctypes.c_double),
+            ctypes.POINTER(ctypes.c_double),
+            ctypes.POINTER(ctypes.c_double),
+        ]
+
+        yeux_native.yeux_update_cursor.restype = None
+
+        YEUX_NATIVE_AVAILABLE = True
+        print("YeuxNativeCore loaded")
+    except Exception:
+        yeux_native = None
+        print("YeuxNativeCore not found; using Python fallback.")
+else:
+    print("YeuxNativeCore not found; using Python fallback.")
 # ============================================================
 # YEUX HYPERPRODUCT DEMO
 # ============================================================
