@@ -2,6 +2,14 @@
 
 > AI-powered eye tracking and human-computer interaction (HCI) research project by Lukintosh.
 
+Looking for first testers
+
+If you cloned Yeux, please open an issue or comment in the tester thread.
+
+I am trying to make Yeux easier to install and use, so even a failed installation helps.
+
+Tester thread: https://github.com/LukintoshCorp/yeux/issues/1
+
 ## Overview
 
 Yeux is an experimental eye-tracking system that enables hands-free computer interaction using standard webcams, computer vision, and artificial intelligence.
